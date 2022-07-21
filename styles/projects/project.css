@@ -1,0 +1,12 @@
+.project {
+  position: relative;
+}
+
+.project-header a {
+  font-family: 'Exo 2', serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  position: absolute;
+  bottom: 1.5rem;
+  right: 4rem;
+}

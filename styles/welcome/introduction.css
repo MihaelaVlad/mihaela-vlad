@@ -1,0 +1,50 @@
+.introduction {
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  transform: translate(-50%, -50%);
+  padding-bottom: 2rem;
+  display: grid;
+  justify-items: center;
+}
+
+.introduction-inner {
+  clip-path: polygon(
+    0% 5%,
+    5% 0,
+    95% 0,
+    100% 5%,
+    100% 95%,
+    96% 100%,
+    5% 100%,
+    0% 95%
+  );
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  row-gap: 2rem;
+  background: var(--bg-gradient);
+}
+
+.introduction-inner p {
+  text-align: center;
+}
+
+.introduction-inner a {
+  margin-top: 1rem;
+}
+
+@media (min-width: 993px) {
+  .introduction-inner {
+    width: 55%;
+  }
+
+  .introduction-inner p {
+    width: 65%;
+  }
+}

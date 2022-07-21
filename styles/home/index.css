@@ -1,0 +1,21 @@
+@import './about.css';
+@import './contact.css';
+@import './projects-preview.css';
+@import './skills.css';
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 10rem;
+}
+
+.content > section {
+  padding-top: 2rem;
+}
+
+h1 {
+  font-family: 'Venus Rising', sans-serif;
+  font-size: 1.5rem;
+  color: #fb4409;
+  text-align: center;
+}

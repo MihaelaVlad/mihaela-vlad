@@ -1,0 +1,14 @@
+:root {
+  --main-color: #fb4409;
+  --secondary-color: #703ac4;
+  --bg-color: #030127;
+  --bg-gradient: linear-gradient(
+    180deg,
+    rgba(112, 58, 196, 0.2) 0%,
+    rgba(112, 58, 196, 0.026) 100%
+  );
+  --white: #fff;
+  --black: #000;
+  --light: var(--white);
+  --dark: var(--white);
+}

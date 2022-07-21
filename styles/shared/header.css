@@ -1,0 +1,137 @@
+.header {
+  position: relative;
+  display: grid;
+  justify-items: center;
+}
+
+.header-background {
+  display: none;
+}
+
+.header-inner {
+  position: absolute;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: start;
+}
+
+.header-front-end-portofolio {
+  display: none;
+}
+
+.header-nav {
+  display: none;
+}
+
+.menu {
+  justify-self: flex-end;
+}
+
+@media (min-width: 993px) {
+  .header-background {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    z-index: -1;
+  }
+
+  .header-container {
+    grid-template-columns: 1fr;
+    row-gap: 5rem;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .header-inner {
+    margin-top: 0;
+  }
+
+  .header-front-end-portofolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+    margin-top: 3rem;
+    font-weight: 400;
+    color: #fb4409;
+  }
+
+  .header .front-end-title::before {
+    content: url('/design/arrow.svg');
+    display: inline-block;
+    position: relative;
+    top: 0.2rem;
+    margin-right: 1rem;
+  }
+
+  .header .front-end-title::after {
+    content: url('/design/arrow.svg');
+    transform: scaleX(-1);
+    display: inline-block;
+    position: relative;
+    top: 0.2rem;
+    margin-left: 1rem;
+  }
+
+  .header .ui-ux-design-title::before {
+    content: url('/design/arrow.svg');
+    display: inline-block;
+    position: relative;
+    top: 0.2rem;
+    margin-right: 1rem;
+  }
+
+  .header .ui-ux-design-title::after {
+    content: url('/design/arrow.svg');
+    transform: scaleX(-1);
+    display: inline-block;
+    position: relative;
+    top: 0.2rem;
+    margin-left: 1rem;
+  }
+
+  .header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+  }
+
+  .header-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .header-nav li {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .header-nav li a {
+    cursor: pointer;
+    transition: color 0.2s ease-in, outline 0.2s ease-in-out;
+    position: relative;
+  }
+
+  .header-nav li a:hover {
+    color: #703ac4;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23FB4409FF' stroke-width='3' stroke-dasharray='8%2c 24%2c 23' stroke-dashoffset='33' stroke-linecap='square'/%3e%3c/svg%3e");
+    padding: 0.5rem 1.5rem;
+  }
+
+  .menu {
+    display: none;
+  }
+}
