@@ -14,8 +14,8 @@
 }
 
 h1 {
-  font-family: 'Venus Rising', sans-serif;
+  font-family: 'Venus Rising Rg', sans-serif;
   font-size: 1.5rem;
-  color: #fb4409;
+  color: var(--main-color);
   text-align: center;
 }
