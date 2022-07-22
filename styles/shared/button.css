@@ -6,6 +6,7 @@
   color: var(--white);
   height: 4rem;
   width: 10rem;
+  padding-top: 0.35rem;
   background: var(--main-color);
   cursor: pointer;
   clip-path: polygon(42% 0, 48% 15%, 100% 15%, 100% 100%, 4% 100%, 0 81%, 0 0);

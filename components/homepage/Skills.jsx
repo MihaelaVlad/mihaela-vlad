@@ -42,7 +42,9 @@ export default function Skills() {
                   className="image"
                 ></Image>
 
-                <h2>Front-end development skills</h2>
+                <h2 className="programming-technologies-title">
+                  Front-end development skills
+                </h2>
               </header>
 
               <ul className="technologies-list">
@@ -138,7 +140,9 @@ export default function Skills() {
                   className="image"
                 ></Image>
 
-                <h2>UI/UX design skills</h2>
+                <h2 className="design-technologies-title">
+                  UI/UX design skills
+                </h2>
               </header>
 
               <ul className="technologies-list">

@@ -1,13 +1,18 @@
 .about {
   display: grid;
-  row-gap: 3rem;
+  row-gap: 1rem;
   align-items: center;
+  justify-items: center;
+  width: fit-content;
+  margin-top: 5rem;
 }
 
 .about-header {
   display: grid;
-  position: relative;
+  align-items: center;
   justify-items: center;
+  width: fit-content;
+  position: relative;
 }
 
 .about-header h1 {

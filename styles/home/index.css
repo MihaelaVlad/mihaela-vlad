@@ -6,11 +6,12 @@
 .content {
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 10rem;
+  row-gap: 5rem;
 }
 
 .content > section {
   padding-top: 2rem;
+  margin-bottom: 5rem;
 }
 
 h1 {

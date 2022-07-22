@@ -1,12 +1,17 @@
 .projects-preview {
   display: grid;
-  row-gap: 3rem;
+  row-gap: 1rem;
+  align-items: center;
+  width: fit-content;
+  justify-items: center;
 }
 
 .projects-preview-header {
   display: grid;
-  position: relative;
+  width: fit-content;
   justify-items: center;
+  align-items: center;
+  position: relative;
 }
 
 .projects-preview-header h1 {
