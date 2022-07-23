@@ -4,7 +4,13 @@ export default function Skills() {
   return (
     <section className="skills container" id="skills">
       <header className="skills-header">
-        <h1>Skills</h1>
+        <picture>
+          <source
+            media="(min-width: 993px)"
+            srcSet="/design/skills-lg.png"
+          ></source>
+          <img src="/design/skills.png" alt="Skills"></img>
+        </picture>
       </header>
 
       <div className="technologies-container">
@@ -46,6 +52,10 @@ export default function Skills() {
                   Front-end development skills
                 </h2>
               </header>
+
+              <span>
+                I enjoy watching my ideas come to life in the browser.
+              </span>
 
               <ul className="technologies-list">
                 <li>
@@ -144,6 +154,11 @@ export default function Skills() {
                   UI/UX design skills
                 </h2>
               </header>
+
+              <span>
+                I love being creative when it comes to the design patterns and
+                user experience.
+              </span>
 
               <ul className="technologies-list">
                 <li>

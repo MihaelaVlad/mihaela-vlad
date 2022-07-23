@@ -11,12 +11,7 @@
   width: fit-content;
   justify-items: center;
   align-items: center;
-  position: relative;
-}
-
-.skills-header h1 {
-  background: url('/design/category-style-design.svg') no-repeat;
-  padding: 1.6rem 5.95rem;
+  margin-bottom: 1.5rem;
 }
 
 .technologies {
@@ -35,6 +30,15 @@
   align-items: center;
 }
 
+.programming-technologies,
+.design-technologies {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: start;
+  align-items: center;
+  row-gap: 1rem;
+}
+
 .technologies-skills {
   display: grid;
   grid-template-columns: 1fr;
@@ -46,7 +50,7 @@
 .programming-technologies-title,
 .design-technologies-title {
   font-weight: 300;
-  color: var(--secondary-color);
+  color: var(--main-color);
 }
 
 .design-technologies-header,
@@ -61,8 +65,8 @@
 
 .technologies-list {
   display: grid;
-  grid-template-columns: repeat(4, 4rem);
-  row-gap: 1rem;
+  grid-template-columns: repeat(4, 3rem);
+  column-gap: 1rem;
   align-items: center;
   justify-items: center;
   margin-top: 2rem;
@@ -85,4 +89,11 @@
     justify-items: start;
     margin-top: 3rem;
   }
-} ;
+}
+
+@media (min-width: 1210px) {
+  .technologies-list {
+    column-gap: 1rem;
+    grid-template-columns: repeat(8, 3rem);
+  }
+}

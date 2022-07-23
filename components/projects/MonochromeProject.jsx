@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function MonochromeProject() {
   return (
     <section className="project-presentation container">
-      <div className="homepage container">
+      <div className="homepage">
         <Link href="/home">
           <a title="Home">
             <Image
@@ -20,7 +20,13 @@ export default function MonochromeProject() {
       </div>
 
       <header className="project-presentation-header">
-        <h1>Monochrome</h1>
+        <picture>
+          <source
+            media="(min-width: 993px)"
+            srcSet="/design/monochrome-lg.png"
+          ></source>
+          <img src="/design/monochrome.png" alt="Monochrome"></img>
+        </picture>
       </header>
       <div className="d-block d-lg-none">
         <Image
@@ -45,7 +51,7 @@ export default function MonochromeProject() {
       <section className="project-presentation-details">
         <div className="project-image">
           <Image
-            src="/design/monochrome.jpg"
+            src="/design/project-monochrome.jpg"
             width="500px"
             height="600px"
             alt="Monochrome"

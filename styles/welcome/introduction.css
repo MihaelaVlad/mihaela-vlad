@@ -1,4 +1,7 @@
 .introduction {
+  display: grid;
+  justify-items: center;
+  align-items: center;
   overflow: hidden;
   position: absolute;
   top: 50%;

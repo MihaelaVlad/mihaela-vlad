@@ -4,7 +4,13 @@ export default function About() {
   return (
     <section className="about container" id="about-me">
       <header className="about-header">
-        <h1>About me</h1>
+        <picture>
+          <source
+            media="(min-width: 993px)"
+            srcSet="/design/about-lg.png"
+          ></source>
+          <img src="/design/about.png" alt="About me"></img>
+        </picture>
       </header>
 
       <section className="profile">

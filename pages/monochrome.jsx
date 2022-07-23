@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Footer from '../components/Footer';
-import Image from 'next/image';
 import MonochromeProject from '../components/projects/MonochromeProject';
 
 export default function Monochrome() {

@@ -12,12 +12,7 @@
   align-items: center;
   justify-items: center;
   width: fit-content;
-  position: relative;
-}
-
-.about-header h1 {
-  background: url('/design/category-style-design.svg') no-repeat;
-  padding: 1.6rem 3.9rem;
+  margin-bottom: 1.5rem;
 }
 
 .profile {

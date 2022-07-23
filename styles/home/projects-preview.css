@@ -11,12 +11,7 @@
   width: fit-content;
   justify-items: center;
   align-items: center;
-  position: relative;
-}
-
-.projects-preview-header h1 {
-  background: url('/design/category-style-design.svg') no-repeat;
-  padding: 1.6rem 3.9rem;
+  margin-bottom: 1.5rem;
 }
 
 .projects-tiles {

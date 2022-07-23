@@ -11,16 +11,7 @@
   width: fit-content;
   justify-items: center;
   align-items: center;
-  position: relative;
-}
-
-.contact-header h1 {
-  background: url('/design/category-style-design.svg') no-repeat;
-  padding: 1.6rem 2.45rem;
-}
-
-.contact-header img {
-  height: 100%;
+  margin-bottom: 1.5rem;
 }
 
 .contact-container {

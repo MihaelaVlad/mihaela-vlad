@@ -1,8 +1,14 @@
+.homepage {
+  justify-self: start;
+}
+
 .homepage a {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.7fr 1fr;
   width: fit-content;
-  column-gap: 1rem;
+  justify-items: start;
+  align-items: center;
+  column-gap: 0.5rem;
   font-size: 1.25rem;
   margin-bottom: 3rem;
 }
@@ -16,10 +22,8 @@
   margin-bottom: 2rem;
 }
 
-.project-presentation-header h1 {
-  background: url('/design/category-style-design.svg') no-repeat;
-  padding: 1.6rem 1.55rem;
-  margin-bottom: 2rem;
+.project-presentation-header {
+  margin-bottom: 1.5rem;
 }
 
 .project-presentation-details {
@@ -79,7 +83,7 @@
     row-gap: 2rem;
   }
 
-  .programming-technologies {
+  .project-programming-technologies {
     grid-template-columns: repeat(8, 4rem);
     justify-items: start;
   }

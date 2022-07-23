@@ -5,7 +5,13 @@ export default function Contact() {
   return (
     <section className="contact container" id="contact-me">
       <header className="contact-header">
-        <h1>Contact me</h1>
+        <picture>
+          <source
+            media="(min-width: 993px)"
+            srcSet="/design/contact-lg.png"
+          ></source>
+          <img src="/design/contact.png" alt="Contact me"></img>
+        </picture>
       </header>
 
       <section className="contact-container">
