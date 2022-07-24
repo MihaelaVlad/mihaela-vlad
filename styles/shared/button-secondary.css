@@ -15,4 +15,5 @@
 
 .btn-cta-secondary:hover {
   background-color: var(--main-color);
+  animation: button 0.2s ease-in-out forwards;
 }

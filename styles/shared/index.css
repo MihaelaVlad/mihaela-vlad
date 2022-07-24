@@ -2,3 +2,13 @@
 @import './footer.css';
 @import './button.css';
 @import './button-secondary.css';
+
+@keyframes button {
+  0% {
+    transform: translatey(0);
+  }
+
+  100% {
+    transform: translateY(3%);
+  }
+}

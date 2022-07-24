@@ -12,6 +12,8 @@
   justify-items: center;
   align-items: center;
   margin-bottom: 1.5rem;
+  padding: 1rem 1.5rem;
+  background-image: var(--bg-header);
 }
 
 .projects-tiles {
@@ -26,6 +28,10 @@
 }
 
 @media (min-width: 993px) {
+  .projects-preview-header {
+    padding: 2rem 2.5rem;
+  }
+
   .projects-tiles {
     grid-template-columns: 1fr 1fr;
   }

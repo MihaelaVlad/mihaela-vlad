@@ -5,13 +5,7 @@ export default function Projects() {
   return (
     <section className="projects-preview container" id="projects">
       <header className="projects-preview-header">
-        <picture>
-          <source
-            media="(min-width: 993px)"
-            srcSet="/design/projects-lg.png"
-          ></source>
-          <img src="/design/projects.png" alt="Projects"></img>
-        </picture>
+        <h1>Projects</h1>
       </header>
 
       <div className="project-tiles-container">

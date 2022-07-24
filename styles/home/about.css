@@ -13,6 +13,8 @@
   justify-items: center;
   width: fit-content;
   margin-bottom: 1.5rem;
+  padding: 1rem 1.5rem;
+  background-image: var(--bg-header);
 }
 
 .profile {
@@ -61,6 +63,10 @@
 }
 
 @media (min-width: 993px) {
+  .about-header {
+    padding: 2rem 2.5rem;
+  }
+
   .about-me-summery {
     display: grid;
     grid-template-columns: 1fr 1fr;

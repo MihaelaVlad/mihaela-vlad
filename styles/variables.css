@@ -7,6 +7,13 @@
     rgba(112, 58, 196, 0.2) 0%,
     rgba(112, 58, 196, 0.026) 100%
   );
+  --bg-header: linear-gradient(
+    135deg,
+    transparent 5%,
+    rgba(112, 58, 196, 0.2) 0%,
+    rgba(112, 58, 196, 0.026) 95%,
+    transparent 95%
+  );
   --white: #fff;
   --black: #000;
   --light: var(--white);

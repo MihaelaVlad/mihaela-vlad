@@ -1,6 +1,7 @@
 .header {
   display: grid;
   justify-items: center;
+  animation: animation 1.5s ease-in;
 }
 
 .header-background {

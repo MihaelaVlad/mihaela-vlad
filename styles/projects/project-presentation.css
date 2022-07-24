@@ -1,5 +1,6 @@
 .homepage {
   justify-self: start;
+  margin-top: 2rem;
 }
 
 .homepage a {
@@ -19,11 +20,12 @@
   width: fit-content;
   justify-items: center;
   align-items: center;
-  margin-bottom: 2rem;
 }
 
 .project-presentation-header {
   margin-bottom: 1.5rem;
+  padding: 1rem 1.5rem;
+  background-image: var(--bg-header);
 }
 
 .project-presentation-details {
@@ -54,6 +56,12 @@
   width: 100%;
 }
 
+.project-description li::before {
+  content: '◈';
+  color: var(--main-color);
+  margin-right: 0.5rem;
+}
+
 .project-programming-technologies {
   display: grid;
   grid-template-columns: repeat(4, 4rem);
@@ -72,6 +80,10 @@
 }
 
 @media (min-width: 993px) {
+  .project-presentation-header {
+    padding: 2rem 2.5rem;
+  }
+
   .project-presentation-details {
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;

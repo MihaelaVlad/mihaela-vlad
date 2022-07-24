@@ -20,14 +20,9 @@ export default function MonochromeProject() {
       </div>
 
       <header className="project-presentation-header">
-        <picture>
-          <source
-            media="(min-width: 993px)"
-            srcSet="/design/monochrome-lg.png"
-          ></source>
-          <img src="/design/monochrome.png" alt="Monochrome"></img>
-        </picture>
+        <h1>Monochrome</h1>
       </header>
+
       <div className="d-block d-lg-none">
         <Image
           src="/design/border-small.png"
@@ -51,24 +46,34 @@ export default function MonochromeProject() {
       <section className="project-presentation-details">
         <div className="project-image">
           <Image
-            src="/design/project-monochrome.jpg"
-            width="500px"
-            height="600px"
+            src="/design/monochrome.png"
+            width="1380px"
+            height="974px"
             alt="Monochrome"
             title="Monochrome"
           ></Image>
         </div>
 
         <section className="project-details">
-          <section className="project-desciption">
-            <header className="project-desciption-header">
+          <section className="project-description">
+            <header className="project-description-header">
               <h1>About</h1>
             </header>
 
-            <p>
-              Lorem ivpsum dolor sit amet, consectetur adipiscing elit. Quis
-              tristique sed non eget suspendisse massa, morbi dictumst.
-            </p>
+            <p>Monochrome is an e-commerce website build with NEXT.js. </p>
+
+            <ul>
+              <li>Layout: responsive layout made with CSS grid.</li>
+              <li>I used a responsive, mobile-first strategy.</li>
+              <li>It was built with reusable UI components.</li>
+              <li>
+                I used animations for better user experience on buttons,
+                products and links.
+              </li>
+              <li>
+                I strictly followed the design, making changes only when needed.
+              </li>
+            </ul>
           </section>
 
           <section className="project-challenges">
@@ -77,9 +82,7 @@ export default function MonochromeProject() {
             </header>
 
             <p>
-              Lorem ivpsum dolor sit amet, consectetur adipiscing elit. Quis
-              tristique sed non eget suspendisse massa, morbi dictumst. At eget
-              pulvinar quis ac gravida etiam nisl arcu.
+              Develop the mobile version with just the design for the homepage.
             </p>
           </section>
 

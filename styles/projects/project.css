@@ -1,3 +1,13 @@
+@keyframes project {
+  0% {
+    transform: translatey(0);
+  }
+
+  100% {
+    transform: translateY(3%);
+  }
+}
+
 .project {
   position: relative;
 }
@@ -9,4 +19,8 @@
   position: absolute;
   bottom: 1.5rem;
   right: 4rem;
+}
+
+.project:hover {
+  animation: project 0.5s linear forwards;
 }

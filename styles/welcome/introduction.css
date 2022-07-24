@@ -1,3 +1,13 @@
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .introduction {
   display: grid;
   justify-items: center;
@@ -9,21 +19,11 @@
   margin: auto;
   transform: translate(-50%, -50%);
   padding-bottom: 2rem;
-  display: grid;
-  justify-items: center;
+  animation: appear 2s linear forwards;
 }
 
 .introduction-inner {
-  clip-path: polygon(
-    0% 5%,
-    5% 0,
-    95% 0,
-    100% 5%,
-    100% 95%,
-    96% 100%,
-    5% 100%,
-    0% 95%
-  );
+  background-image: var(--bg-header);
   padding: 2rem;
   display: grid;
   grid-template-columns: 1fr;
@@ -31,7 +31,6 @@
   align-items: center;
   width: 100%;
   row-gap: 2rem;
-  background: var(--bg-gradient);
 }
 
 .introduction-inner p {

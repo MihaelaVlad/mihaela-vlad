@@ -12,6 +12,8 @@
   justify-items: center;
   align-items: center;
   margin-bottom: 1.5rem;
+  padding: 1rem 1.5rem;
+  background-image: var(--bg-header);
 }
 
 .contact-container {
@@ -45,6 +47,10 @@
 }
 
 @media (min-width: 993px) {
+  .contact-header {
+    padding: 2rem 2.5rem;
+  }
+
   .contact-information {
     padding: 3rem;
   }

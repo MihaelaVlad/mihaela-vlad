@@ -4,13 +4,7 @@ export default function Skills() {
   return (
     <section className="skills container" id="skills">
       <header className="skills-header">
-        <picture>
-          <source
-            media="(min-width: 993px)"
-            srcSet="/design/skills-lg.png"
-          ></source>
-          <img src="/design/skills.png" alt="Skills"></img>
-        </picture>
+        <h1>Skills</h1>
       </header>
 
       <div className="technologies-container">
