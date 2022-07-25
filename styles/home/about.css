@@ -62,7 +62,7 @@
   padding-bottom: 2rem;
 }
 
-@media (min-width: 993px) {
+@media (min-width: 992px) {
   .about-header {
     padding: 2rem 2.5rem;
   }

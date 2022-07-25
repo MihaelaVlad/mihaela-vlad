@@ -27,12 +27,14 @@
   padding: 2rem;
 }
 
-@media (min-width: 993px) {
-  .projects-preview-header {
-    padding: 2rem 2.5rem;
-  }
-
+@media (min-width: 769px) {
   .projects-tiles {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 992px) {
+  .projects-preview-header {
+    padding: 2rem 2.5rem;
   }
 }

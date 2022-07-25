@@ -1,7 +1,6 @@
 .header {
   display: grid;
   justify-items: center;
-  animation: animation 1.5s ease-in;
 }
 
 .header-background {
@@ -33,7 +32,11 @@
   justify-self: flex-end;
 }
 
-@media (min-width: 993px) {
+@media (min-width: 992px) {
+  .header {
+    animation: animation 1.5s ease-in forwards;
+  }
+
   .header-background {
     display: block;
     width: 90%;

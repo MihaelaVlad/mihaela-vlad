@@ -82,7 +82,8 @@ export default function MonochromeProject() {
             </header>
 
             <p>
-              Develop the mobile version with just the design for the homepage.
+              Developing the mobile version only with the design for the
+              homepage.
             </p>
           </section>
 

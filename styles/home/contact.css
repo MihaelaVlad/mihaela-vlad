@@ -46,7 +46,7 @@
   font-size: 0.75rem;
 }
 
-@media (min-width: 993px) {
+@media (min-width: 992px) {
   .contact-header {
     padding: 2rem 2.5rem;
   }

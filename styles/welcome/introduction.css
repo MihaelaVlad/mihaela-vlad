@@ -41,7 +41,7 @@
   margin-top: 1rem;
 }
 
-@media (min-width: 993px) {
+@media (min-width: 992px) {
   .introduction-inner {
     width: 55%;
   }
